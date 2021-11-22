@@ -17,13 +17,16 @@ Question3b.sql populates the table altered by Question3.sql and populates them w
 
 Question3c.sql has sql statement to create a sql view that returns only the latest record for each vin
 
-viz.py is a python file that reades stat.json and returns prices.csv that is used in tableau to show price changes over time by car make,
+Answer to Question 4: viz.py is a python file that reades stat.json and returns prices.csv that is used in tableau to show price changes over time by car make,
   model. 
 
 -tableau visualization can be viewed at 
 https://public.tableau.com/views/CarPricesVizualization/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 you can select "All" in the dropdown for Make or select individual Make. Dropdown for Model changes based on linked records to Make. 
 For example, if you select "Chevrolet" in Make, then only available Chevrolet models show up in the Model dropdown. 
+
+Question5.ipynb - Jupyter notebook file with visualizations for car data start.json. 
+Visualizations about popular car make, popular models for car makes, popular manufacturing destinations by country and state. 
 
 
 Question6.py is a python file to populate tables set up by Question1.sql with new json files that are received every day. 
