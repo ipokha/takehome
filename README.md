@@ -1,6 +1,6 @@
 # takehome
 takehome test
-- All sql files are made for mysql. 
+- MYSQL files. 
 
 
 Question1.sql has SQL statements to create the first Relational Database for start.json.
