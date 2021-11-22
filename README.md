@@ -10,9 +10,8 @@ Question2.sql has SQL statements to update duplicate records, more comments prov
 
 
 Question3.sql has SQL statements to alter the exisiting tables to allow for recording changes over time for each record previously
-
-  uniquely identified by VIN in all tables. Adds RecordDate column to all tables and makes all tables refer to VEHICLE table
-  using composite key of RecordDate,VIN
+uniquely identified by VIN in all tables. Adds RecordDate column to all tables and makes all tables refer to VEHICLE table
+using composite key of RecordDate,VIN
 
 Question3b.sql populates the table altered by Question3.sql and populates them with few random VIN and Record dates. 
 
